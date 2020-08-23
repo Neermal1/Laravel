@@ -1,0 +1,10 @@
+{
+    "name": "eventmanagement/src",
+    "authors": [
+        {
+            "name": "event",
+            "email": "event@gmail.com"
+        }
+    ],
+    "require": {}
+}
