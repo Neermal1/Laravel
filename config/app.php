@@ -166,6 +166,8 @@ return [
         Illuminate\View\ViewServiceProvider::class,
         Neermal\Staff\StaffServiceProvider::class,
         Management\Eventmanagement\EventmanagementServiceProvider::class,
+        Image\Gallery\PictureServiceProvider::class,
+
 
         /*
          * Package Service Providers...

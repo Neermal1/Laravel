@@ -216,26 +216,17 @@
                      <li class="treeview events">
                         <a href="#">
                             <i class="fa fa-events"></i>
-                            <span>Events</span>
+                            <span>Gallery</span>
                             <span class="pull-right-container">
                                 <i class="fa fa-angle-left pull-right"></i>
                             </span>
                         </a>
                         <ul class="treeview-menu">
-                            <li class="events_create"><a href="{{url('admin/eventmanagement/create')}}"><i class="fa fa-circle-o"></i> Create Events</a></li>
-                            <li class="events_list"><a href="{{url('admin/eventmanagement')}}"><i class="fa fa-circle-o"></i> List Events
+                            <li class="events_create"><a href="{{url('admin/albums/create')}}"><i class="fa fa-circle-o"></i> Album</a></li>
+                            <li class="events_list"><a href="{{url('admin/albums ')}}"><i class="fa fa-circle-o"></i> List Albums
                             </a></li>
-                              <li class="treeview events">
-                        <a href="#">
-                            <i class="fa fa-events"></i>
-                            <span>Photos</span>
-                            <span class="pull-right-container">
-                                <i class="fa fa-angle-left pull-right"></i>
-                            </span>
-                        </a>
-                        <ul class="treeview-menu">
-                            <li class="photo_create"><a href="{{url('admin/photos/create')}}"><i class="fa fa-circle-o"></i> Create Photos</a></li>
-                            <li class="photo_list"><a href="{{url('admin/photos')}}"><i class="fa fa-circle-o"></i> List photos
+                            <li class="photo_create"><a href="{{url('admin/photos/create ')}}"><i class="fa fa-circle-o"></i> Create Photos</a></li>
+                            <li class="photo_list"><a href="{{url('admin/photos  ')}}"><i class="fa fa-circle-o"></i> List photos
                             </a></li>
                            
                         </ul>

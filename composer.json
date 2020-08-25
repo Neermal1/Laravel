@@ -53,7 +53,9 @@
             "Access\\User\\":"packages/access/user/src",
             "Client\\Project\\":"packages/client/project/src",
             "Neermal\\Staff\\":"packages/neermal/staff/src",
-           "Management\\Eventmanagement\\":"packages/management/eventmanagement/src"
+            "Management\\Eventmanagement\\":"packages/management/eventmanagement/src",
+            "Image\\Gallery\\":"packages/image/gallery/src"
+
         }
     },
     "minimum-stability": "dev",

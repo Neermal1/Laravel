@@ -159,6 +159,7 @@ class ComposerStaticInit9e717924216f3eeb7d4282def106501a
         'I' => 
         array (
             'Intervention\\Image\\' => 19,
+            'Image\\Gallery\\' => 14,
             'Illuminate\\Foundation\\Auth\\' => 27,
             'Illuminate\\' => 11,
         ),
@@ -481,6 +482,10 @@ class ComposerStaticInit9e717924216f3eeb7d4282def106501a
         'Intervention\\Image\\' => 
         array (
             0 => __DIR__ . '/..' . '/intervention/image/src/Intervention/Image',
+        ),
+        'Image\\Gallery\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/packages/image/gallery/src',
         ),
         'Illuminate\\Foundation\\Auth\\' => 
         array (
@@ -2564,6 +2569,13 @@ class ComposerStaticInit9e717924216f3eeb7d4282def106501a
         'Illuminate\\View\\ViewFinderInterface' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/View/ViewFinderInterface.php',
         'Illuminate\\View\\ViewName' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/View/ViewName.php',
         'Illuminate\\View\\ViewServiceProvider' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/View/ViewServiceProvider.php',
+        'Image\\Gallery\\Album' => __DIR__ . '/../..' . '/packages/image/gallery/src/Album.php',
+        'Image\\Gallery\\Photo' => __DIR__ . '/../..' . '/packages/image/gallery/src/Photo.php',
+        'Image\\Gallery\\PhotosController' => __DIR__ . '/../..' . '/packages/image/gallery/src/PhotosController.php',
+        'Image\\Gallery\\PictureServiceProvider' => __DIR__ . '/../..' . '/packages/image/gallery/src/PictureServiceProvider.php',
+        'Image\\Gallery\\Product' => __DIR__ . '/../..' . '/packages/image/gallery/src/Product.php',
+        'Image\\Gallery\\ProductsController' => __DIR__ . '/../..' . '/packages/image/gallery/src/ProductsController.php',
+        'Image\\Gallery\\albumsController' => __DIR__ . '/../..' . '/packages/image/gallery/src/AlbumsController.php',
         'Intervention\\Image\\AbstractColor' => __DIR__ . '/..' . '/intervention/image/src/Intervention/Image/AbstractColor.php',
         'Intervention\\Image\\AbstractDecoder' => __DIR__ . '/..' . '/intervention/image/src/Intervention/Image/AbstractDecoder.php',
         'Intervention\\Image\\AbstractDriver' => __DIR__ . '/..' . '/intervention/image/src/Intervention/Image/AbstractDriver.php',
